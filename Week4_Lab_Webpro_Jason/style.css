@@ -1,0 +1,52 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0; /* Remove default body margin */
+    padding: 20px; /* Add padding for content */
+    background-color: #f4f4f4; /* Set a light background color */
+}
+
+.header {
+    text-align: center;
+    padding: 20px; /* Add padding for header content */
+    background-color: #ffffff; /* White background for header */
+    border-bottom: 2px solid #333; /* Add a border at the bottom */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    position: relative; /* Ensure the header serves as the positioning context */
+}
+
+.header img {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    max-width: 150px; /* Reduce image size */
+    border-radius: 50%;
+    border: 3px solid #ffffff; /* Add a border around the image */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Add a shadow to the image */
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0; /* Remove default HR border */
+    height: 1px; /* Set height to create a line */
+    background-color: #ccc; /* Add a light gray color */
+}
+
+h1, h2 {
+    margin: 10px 0; /* Add space above and below headings */
+}
+
+ul {
+    list-style-type: none; /* Remove default list styles */
+    padding-left: 0; /* Remove default padding */
+}
+
+ul li {
+    margin-bottom: 5px; /* Add space between list items */
+}
+
+p {
+    margin: 10px 0; /* Add space above and below paragraphs */
+}
