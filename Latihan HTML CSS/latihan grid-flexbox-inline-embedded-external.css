@@ -1,0 +1,27 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+}
+.grid-item{
+    background-color: #3a3ac5;
+    padding: 20px;
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-item {
+    background-color: #b90b0b;
+    padding: 20px;
+    text-align: center;
+    flex: 1 0 10%;
+    margin: 10px;
+}
+
+p{
+    color: purple;
+}
