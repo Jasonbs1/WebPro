@@ -1,0 +1,29 @@
+.header {
+    font-style: 'Verdana';
+    color: #DE101D;
+    font-size: 2em;
+}
+
+.p {
+    font-style:'Times New Roman';
+    font-size: 14px;
+    color: #850F16;
+}
+
+.image {
+    border: 2px solid black;
+    height: 500px;
+    width: 500px;
+}
+
+.div {
+    background-color: #DB5B0B;
+    border: 2px;
+    color: solid #8F3C09;
+}
+
+.linkweb {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+}
