@@ -1,0 +1,10 @@
+table {
+    border: 1px solid black;
+}
+tr {
+    background-color:#FF7F7F;
+}
+td {
+    border: 1px dashed blue;
+    height: 50px;
+}
