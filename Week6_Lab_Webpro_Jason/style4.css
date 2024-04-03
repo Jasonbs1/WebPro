@@ -1,0 +1,102 @@
+html{
+    background-color: gray;
+}
+
+header{
+    display: flex;
+    height: 10%;
+    background-color: orange;
+    margin:10px;
+}
+
+.container1{
+    display: flex;
+    margin: 10px;
+    margin-right: 4px;
+    height: 30%;
+}
+
+.article-container1 {
+    flex: 3;
+    display: flex;
+    flex-direction: column; 
+  }
+
+.headernav{
+    width: 98%;
+    margin: 10px;
+    background-color: yellow;
+}
+
+.container{
+    display: flex;
+    margin: 10px;
+    margin-right: 4px;
+}
+
+.article-container {
+    flex: 3;
+    display: flex;
+    flex-direction: column; 
+  }
+
+article {
+    background-color: lightblue;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 10px;
+  }
+
+section{
+    background-color: greenyellow;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 50px;
+}
+
+.header{
+    background-color: azure;
+    margin-top: 0px;
+}
+
+footer{
+    background-color: lightsalmon;
+    margin: 10px;
+    margin-bottom: 0px;
+}
+
+nav{
+    display: flex;
+    width: 10%;
+    justify-content: space-between;
+    background-color: orange;
+    margin: 10px;
+}
+
+aside{
+    background-color: rgb(81, 209, 81);
+    width: 15%;
+    margin: 0%;
+}
+
+figcaption{
+    background-color: gray;
+}
+
+footer{
+    background-color: orange;
+    height: 9%;
+}
+
+.footernav{
+    width: 98%;
+    margin: 10px;
+    background-color: yellow;
+}
+
+.aside{
+    height: 100px;
+    float: right;
+}
