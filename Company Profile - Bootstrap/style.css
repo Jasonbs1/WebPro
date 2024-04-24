@@ -1,0 +1,38 @@
+/* Custom styles for this template */
+.carousel-item {
+    height: 80vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
+  .jumbotron {
+    background-color: #f8f9fa;
+    padding: 3rem;
+  }
+  
+  .card {
+    margin-bottom: 20px;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+  }
+  
+  .card-text em {
+    font-style: normal;
+  }
+  
+  @media (max-width: 767px) {
+    .navbar-collapse {
+      background-color: #f8f9fa;
+    }
+  }
+  
