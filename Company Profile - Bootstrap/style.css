@@ -1,0 +1,128 @@
+.carousel-item {
+  height: 80vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.jumbotron {
+  background-color: #f8f9fa;
+  padding: 3rem;
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+.card-title {
+  font-size: 1.25rem;
+}
+
+.card-text {
+  font-size: 1rem;
+}
+
+.card-text em {
+  font-style: normal;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link {
+  font-size: 1rem;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+@media (max-width: 767px) {
+  .navbar-collapse {
+    background-color: #f8f9fa;
+  }
+}
+
+.service-card {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  max-width: 500px; 
+  margin: 0 auto; 
+  text-align: left;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.service-card img {
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+  max-width: 100%;
+}
+
+.service-card .btn {
+  transition: background-color 0.3s ease;
+}
+
+.service-card .btn:hover {
+  background-color: #007bff;
+}
+
+.row {
+  margin-right: -15px; 
+  margin-left: -15px; 
+}
+
+
+.milestone {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.milestone .icon {
+  flex: 0 0 auto;
+  width: 60px;
+  height: 60px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+}
+
+.milestone .content {
+  flex: 1 1 auto;
+  padding-left: 20px;
+}
+
+.milestone .content h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.milestone .content .year {
+  font-weight: bold;
+  color: #007bff;
+}
+
+.milestone .content .description {
+  color: #555;
+}

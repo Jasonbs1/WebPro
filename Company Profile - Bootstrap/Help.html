@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Help - Company Profile</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="Index.html">Astra</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Service.html">Services</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Help <span class="sr-only">(current)</span></a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Help Section -->
+<div class="container mt-5">
+  <!-- Contact Information -->
+  <div class="row">
+    <div class="col-lg-12 text-center">
+      <h2>Contact Us</h2>
+      <p>If you have any questions or need assistance, feel free to reach out to us.</p>
+    </div>
+  </div>
+  <div class="row mt-3">
+    <div class="col-lg-12 text-center">
+      <p>Email: info@astra.com | Phone: +123 456 789 | Address: 123 Main Street, City, Country</p>
+      <p>Business Hours: Monday - Friday: 9:00 AM - 5:00 PM | Saturday: 9:00 AM - 12:00 PM | Sunday: Closed</p>
+    </div>
+  </div>
+  
+<!-- FAQ Section -->
+<div class="row mt-5">
+  <div class="col-lg-12">
+      <h2 class="text-center">Frequently Asked Questions</h2>
+  </div>
+  <div class="col-lg-12">
+      <div id="accordion">
+          <!-- What services does Astra offer? -->
+          <div class="card">
+              <div class="card-header" id="headingFour">
+                  <h5 class="mb-0">
+                      <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                          What services does Astra offer?
+                      </button>
+                  </h5>
+              </div>
+              <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                  <div class="card-body">
+                      We offer a wide range of creative services to help bring your brand vision to life. This includes web design and development, graphic design (logos, brochures, etc.), content creation (copywriting, video editing, etc.), and digital marketing strategies. For a complete list of our services, please visit our Services page.
+                  </div>
+              </div>
+          </div>
+          <!-- What is your typical project turnaround time? -->
+          <div class="card">
+              <div class="card-header" id="headingFive">
+                  <h5 class="mb-0">
+                      <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                          What is your typical project turnaround time?
+                      </button>
+                  </h5>
+              </div>
+              <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+                  <div class="card-body">
+                      Our turnaround time varies depending on the scope and complexity of your project. However, we will always work closely with you to establish realistic deadlines and keep you informed throughout the process. For a more specific estimate, feel free to contact us with details about your project.
+                  </div>
+              </div>
+          </div>
+          <!-- Do you offer free consultations? -->
+          <div class="card">
+              <div class="card-header" id="headingSix">
+                  <h5 class="mb-0">
+                      <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                          Do you offer free consultations?
+                      </button>
+                  </h5>
+              </div>
+              <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
+                  <div class="card-body">
+                      Absolutely! We believe in building strong client relationships and understanding your needs before we begin any project. We offer free consultations to discuss your project goals and how Astra can help you achieve them.
+                  </div>
+              </div>
+          </div>
+          <!-- What is your pricing structure? -->
+          <div class="card">
+              <div class="card-header" id="headingSeven">
+                  <h5 class="mb-0">
+                      <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                          What is your pricing structure?
+                      </button>
+                  </h5>
+              </div>
+              <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion">
+                  <div class="card-body">
+                      Our pricing structure is flexible and depends on the specific services you require. We offer hourly rates, project-based fees, and retainer packages. During your free consultation, we can discuss your specific needs and provide you with a custom quote.
+                  </div>
+              </div>
+          </div>
+          <!-- What is your revision policy? -->
+          <div class="card">
+              <div class="card-header" id="headingEight">
+                  <h5 class="mb-0">
+                      <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                          What is your revision policy?
+                      </button>
+                  </h5>
+              </div>
+              <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordion">
+                  <div class="card-body">
+                      We understand that revisions are often necessary to ensure your complete satisfaction. We offer a reasonable number of revisions for each project to ensure we meet your expectations.
+                  </div>
+              </div>
+          </div>
+          <!-- Do you own the rights to the work you create for me? -->
+          <div class="card">
+              <div class="card-header" id="headingNine">
+                  <h5 class="mb-0">
+                      <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                          Do you own the rights to the work you create for me?
+                      </button>
+                  </h5>
+              </div>
+              <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordion">
+                  <div class="card-body">
+                      The ownership of the work we create for you will depend on the specific project agreement. In most cases, you will own the copyright to the final work product. We can discuss this further during your consultation.
+                  </div>
+              </div>
+          </div>
+          <!-- How do I get started with a project? -->
+          <div class="card">
+              <div class="card-header" id="headingTen">
+                  <h5 class="mb-0">
+                      <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                          How do I get started with a project?
+                      </button>
+                  </h5>
+              </div>
+              <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#accordion">
+                  <div class="card-body">
+                      The easiest way to get started is to contact us by phone, email, or through the contact form on our website. We'll be happy to discuss your project and answer any questions you may have.
+                  </div>
+              </div>
+          </div>
+          <!-- What file formats do you deliver your work in? -->
+          <div class="card">
+              <div class="card-header" id="headingEleven">
+                  <h5 class="mb-0">
+                      <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
+                          What file formats do you deliver your work in?
+                      </button>
+                  </h5>
+              </div>
+              <div id="collapseEleven" class="collapse" aria-labelledby="headingEleven" data-parent="#accordion">
+                  <div class="card-body">
+                      We can deliver your final work in a variety of file formats depending on your needs. These commonly include formats like JPG, PNG, PDF, AI, PSD, and MP4.
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+<!-- Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
