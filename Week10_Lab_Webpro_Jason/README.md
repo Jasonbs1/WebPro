@@ -15,5 +15,4 @@ To run the project, simply open the `index.html` file in a web browser. You can 
 ## Additional Notes
 
 - This project includes basic form validation to ensure all required fields are filled out before submission.
-- Styling is kept simple for demonstration purposes. Feel free to customize the CSS to match your design preferences.
 - JavaScript is used to capture form submission and display the entered information dynamically.
