@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shape Manipulation with jQuery</title>
+    <style>
+        /* CSS styles for the container and shapes */
+        #shapeContainerWrapper {
+            padding: 20px;
+            border: 2px solid black;
+            width: 80%;
+            margin: auto;
+        }
+        #shapeContainer {
+            position: relative;
+            width: 100%;
+            height: 500px;
+            border: 1px solid #ccc;
+            overflow: hidden;
+        }
+        .shape {
+            position: absolute;
+            display: none;
+            margin: 5px;
+        }
+        .circle {
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div id="shapeContainerWrapper">
+        <div id="shapeContainer"></div>
+        <div id="controls">
+            <button id="addShape">Add Shape</button>
+            <button id="removeShape">Remove Shape</button>
+            <div id="shapeControls">
+                <label for="shapeType">Shape Type:</label>
+                <select id="shapeType">
+                    <option value="square">Square</option>
+                    <option value="circle">Circle</option>
+                </select>
+                <label for="shapeColor">Color:</label>
+                <input type="color" id="shapeColor">
+                <label for="shapeSize">Size:</label>
+                <input type="number" id="shapeSize" min="20" max="100" value="50">
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
